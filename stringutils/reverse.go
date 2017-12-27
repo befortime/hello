@@ -7,3 +7,7 @@ func Reverse(s string) string {
     }
     return string(r)
 }
+
+func Swap(left, right string) (string, string) {
+    return right, left
+}
